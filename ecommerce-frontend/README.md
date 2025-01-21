@@ -68,3 +68,61 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# E-commerce Frontend Application
+
+## Overview
+This is an e-commerce frontend application built with React. It allows users to view, manage, and purchase products.
+
+## Features
+- View a list of products
+- Add, edit, and delete products
+- Responsive design for mobile and desktop
+
+## Technologies Used
+- React
+- React Router
+- CSS
+- Fetch API
+
+## Getting Started
+
+### Prerequisites
+- Node.js (version X.X.X)
+- npm (version X.X.X)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ecommerce-frontend.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ecommerce-frontend
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+To start the application, run:
+
+The application will be available at `http://localhost:3000`.
+
+## API Endpoints
+- **GET /products**: Fetches the list of products.
+- **POST /products**: Adds a new product.
+- **PUT /products/:id**: Updates an existing product.
+- **DELETE /products/:id**: Deletes a product.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
