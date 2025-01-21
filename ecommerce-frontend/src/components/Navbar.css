@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px; /* Adjust padding for better spacing */
+    background-color: #28a745;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    /* justify-content: center; Center the links */
+    flex: 1; /* Allow the links section to take up available space */
+    gap: 20px; /* Spacing between links */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px; /* Add padding for a better clickable area */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Change hover effect if needed */
+}
+
+.navbar .brand {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto; /* Push the brand to the left */
+}

@@ -1,0 +1,41 @@
+.home {
+    padding: 15px;
+    width: 100%; /* Ensure the home container takes full width */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Space between items */
+    justify-content: flex-start; /* Align items to the start */
+    width: 100%; /* Ensure the product list takes full width */
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 0 0 calc(25% - 20px); /* Use flex-basis for better control */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.product-image {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: round corners */
+}
+
+.product-item h2 {
+    font-size: 1.5em;
+}
+
+.product-item p {
+    font-size: 1em;
+}
+
+.product-item span {
+    font-weight: bold;
+    color: #333;
+}
